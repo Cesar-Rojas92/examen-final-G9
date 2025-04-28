@@ -25,7 +25,7 @@ class JwtAuthenticationFilterTest {
     private JwtService jwtService;
 
     @Mock
-    private UsuarioRepository usuarioRepository; // 👈 agrega esto
+    private UsuarioRepository usuarioRepository;
 
     @Mock
     private HttpServletRequest request;
