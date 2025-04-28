@@ -102,3 +102,6 @@ spring.datasource.password=12345
 
 para ms-auth
 jwt.secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+
+#URL REPOSITORIO CONFIGURACIONES
+https://github.com/Cesar-Rojas92/config-examen-finalG9
