@@ -98,3 +98,7 @@ VALUES (1, 3, ARRAY[1,2], NOW());
 spring.datasource.url=jdbc:postgresql://localhost:5433/exam_final
 spring.datasource.username=admin
 spring.datasource.password=12345
+spring.datasource.password=12345
+
+para ms-auth
+jwt.secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9

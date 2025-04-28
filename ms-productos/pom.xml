@@ -29,6 +29,13 @@
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2024.0.1</spring-cloud.version>
+
+		<sonar.projectKey>Cesar-Rojas92_examen-final-g9</sonar.projectKey>
+		<sonar.organization>cesar-rojas92</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/coverage-reports/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -174,6 +181,11 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.11.0.3922</version>
 			</plugin>
 		</plugins>
 	</build>
